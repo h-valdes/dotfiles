@@ -13,11 +13,10 @@ code --install-extension azemoh.one-monokai
 code --install-extension k--kato.intellij-idea-keybindings
 
 # Make zsh default shell and change theme (oh-my-zsh)
-# Go back to normal user
-su -c "yes | cp -rf ./config/i3/config ~/.i3/config"
-su -c "mkdir ~/.config/polybar"
-su -c "yes | cp -rf ./config/polybar ~/.config/polybar"
+yes | cp -rf ./config/i3/config $HOME/.i3/config
+mkdir $HOME/.config/polybar
+yes | cp -rf ./config/polybar $HOME/.config/polybar
 
-su -c "chsh -s $(which zsh)"
-su -c 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"'
-su -c "sed -i 's/robbyrussell/avit/' ~/.zshrc "
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sed -i 's/robbyrussell/avit/' ~/.zshrc
