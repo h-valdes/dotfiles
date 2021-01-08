@@ -6,10 +6,6 @@ sudo pacman -S --noconfirm rofi firefox hsetroot ksysguard okular gnome-terminal
 sudo pacman -S --noconfirm polybar
 sudo snap install code --classic
 
-# ~/.i3/config
-cp ./config/i3/config ~/.i3/config
-cp ./config/polybar ~/.config
-
 # Install VSCode extensions and themes
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-python.python
@@ -18,8 +14,10 @@ code --install-extension k--kato.intellij-idea-keybindings
 
 # Make zsh default shell and change theme (oh-my-zsh)
 # Go back to normal user
-su $SUDO_USER <<EOF
-chsh -s $(which zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sed -i 's/robbyrussell/avit/' ~/.zshrc 
-EOF
+su -c "yes | cp -rf ./config/i3/config ~/.i3/config"
+su -c "mkdir ~/.config/polybar"
+su -c "yes | cp -rf ./config/polybar ~/.config/polybar"
+
+su -c "chsh -s $(which zsh)"
+su -c 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"'
+su -c "sed -i 's/robbyrussell/avit/' ~/.zshrc "
