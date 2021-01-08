@@ -10,9 +10,6 @@ sudo snap install code --classic
 cp ./config/i3/config ~/.i3/config
 cp ./config/polybar ~/.config
 
-# ~/.config/compton.conf
-cp ./config/compton/compton.conf ~/.config/compton.conf
-
 # Install VSCode extensions and themes
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-python.python
