@@ -1,3 +1,3 @@
 configuration {
-	theme: "~/.config/rofi/slate.rasi";
+	theme: "~/.config/rofi/slate_center.rasi";
 }
