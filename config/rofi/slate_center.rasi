@@ -20,7 +20,7 @@ window {
 	border-color:					@border;
     border-radius:                  0% 0% 0% 0%;
     height:                         50%;
-    width:                          50%;
+    width:                          25%;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -39,9 +39,9 @@ entry {
     text-color:                     @foreground;
     placeholder-color:              @foreground;
     expand:                         true;
-    horizontal-align:               20;
+    horizontal-align:               0;
     placeholder:                    "Search Applications";
-    padding:                        0.15% 0% 0% 0%;
+    padding:                        0% 0% 0% 0%;
     blink:                          true;
 }
 
@@ -53,17 +53,15 @@ inputbar {
 	border:							0% 0% 0.3% 0%;
     border-radius:                  0% 0% 0% 0%;
 	border-color:					@border-alt;
-    margin:                         0% 18.25% 0% 0%;
+    margin:                         0% 0% 0% 0%;
     padding:                        1%;
     position:                       center;
 }
 
 listview {
     background-color:               @background;
-    columns:                        4;
-    spacing:                        1%;
+    msargin:                          0 0 -1px 0;
     cycle:                          false;
-    dynamic:                        true;
     layout:                         vertical;
 }
 
@@ -80,13 +78,13 @@ mainbox {
 element {
     background-color:               @background;
     text-color:                     @foreground;
-    orientation:                    vertical;
+    orientation:                    horizontal;
     border-radius:                  0%;
     padding:                        1% 0% 1% 0%;
 }
 
 element-icon {
-    size:                           49px;
+    size:                           20px;
     border:                         0px;
 }
 
