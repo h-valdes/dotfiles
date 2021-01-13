@@ -12,10 +12,10 @@ code --install-extension ms-python.python
 code --install-extension azemoh.one-monokai
 code --install-extension k--kato.intellij-idea-keybindings
 
-# Make zsh default shell and change theme (oh-my-zsh)
-yes | cp -rf ./config/i3/config $HOME/.i3/config
-yes | cp -rf ./config/polybar $HOME/.config
+# Call the script that updates the dotfiles
+sh update.sh
 
+# Make zsh default shell and change theme (oh-my-zsh)
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sed -i 's/robbyrussell/avit/' ~/.zshrc
