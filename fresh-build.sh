@@ -10,6 +10,7 @@ sudo snap install code --classic
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-python.python
 code --install-extension azemoh.one-monokai
+code --install-extension install SolarLiner.linux-themes
 code --install-extension k--kato.intellij-idea-keybindings
 
 # Call the script that updates the dotfiles
