@@ -109,11 +109,10 @@ element alternate.active {
 }
 
 element selected {
-    background-color:               @selected;
+    background-color:               @selected-background;
     text-color:                     @foreground;
-	border:							0% 0% 0.3% 0%;
+	border:							0% 0% 0.2% 0%;
     border-radius:                  0% 0% 0% 0%;
-    border-color:                  	@border-alt;
 }
 
 element selected.urgent {

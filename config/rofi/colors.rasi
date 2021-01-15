@@ -19,4 +19,5 @@ shade8: #B0BEC5;
     selected:               		@shade4;
     foreground:                     #F8F8F2;
     urgent:                         #DA4453;
+    selected-background:            #86a6b5;
 }
