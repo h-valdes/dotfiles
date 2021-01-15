@@ -52,7 +52,7 @@ inputbar {
     expand:                         false;
 	border:							0% 0% 0.3% 0%;
     border-radius:                  0% 0% 0% 0%;
-	border-color:					@border-alt;
+	border-color:					@border;
     margin:                         0% 0% 0% 0%;
     padding:                        1% 0% 1% 0%;
     position:                       center;
@@ -113,7 +113,7 @@ element selected {
     text-color:                     @foreground;
 	border:							0% 0% 0.3% 0%;
     border-radius:                  0% 0% 0% 0%;
-    border-color:                  	@border;
+    border-color:                  	@border-alt;
 }
 
 element selected.urgent {

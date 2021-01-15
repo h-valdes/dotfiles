@@ -1,8 +1,8 @@
 /* -- Blue Gray -- */
 
 * {
-shade1: #FF7E2F;
-shade2: #282A36;
+shade1: #FF5555;
+shade2: #FF7E2F;
 shade3: #455A64;
 shade4: #546E7A;
 shade5: #607D8B;
