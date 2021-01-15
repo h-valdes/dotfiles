@@ -1,8 +1,8 @@
 /* -- Blue Gray -- */
 
 * {
-shade1: #222D31;
-shade2: #585858;
+shade1: #FF7E2F;
+shade2: #282A36;
 shade3: #455A64;
 shade4: #546E7A;
 shade5: #607D8B;
@@ -17,6 +17,6 @@ shade8: #B0BEC5;
     background:                     @shade3;
     background-alt:                 @shade3;
     selected:               		@shade4;
-    foreground:                     #ffffff;
+    foreground:                     #F8F8F2;
     urgent:                         #DA4453;
 }
