@@ -6,6 +6,7 @@ yes | cp -rf ./config/polybar/ $HOME/.config
 yes | cp -rf ./config/picom/ $HOME/.config
 yes | cp -rf ./config/rofi/ $HOME/.config
 yes | cp -rf ./config/Xresources $HOME/.Xresources
+yes | cp -rf ./config/urxvt/ext/. $HOME/.urxvt/ext
 
 # Refresh the Xresources
 xrdb ~/.Xresources
