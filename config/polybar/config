@@ -114,7 +114,7 @@ wrapping-scroll = false
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 
-label-mode-padding = 2
+label-mode-padding = 0
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
@@ -134,11 +134,11 @@ ws-icon-default = ♟
 label-focused = %icon%
 label-focused-foreground = ${xrdb:color2:#222} 
 ;label-focused-background = ${colors.background-alt}
-label-focused-padding = 2
+label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %icon%
-label-unfocused-padding = 2
+label-unfocused-padding = 1
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %icon%
@@ -149,7 +149,7 @@ label-visible-padding = ${self.label-focused-padding}
 ; urgent = Workspace with urgency hint set
 label-urgent = %icon%
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 1
 
 ; Separator in between workspaces
 ; label-separator = |

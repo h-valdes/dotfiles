@@ -1,0 +1,7 @@
+export ZSH="/home/hvaldes/.oh-my-zsh"
+
+ZSH_THEME="hvaldes"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
