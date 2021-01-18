@@ -51,13 +51,13 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=12;1
+font-0 = fixed:pixelsize=13;1
 font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = siji:pixelsize=12;1
 
 modules-left = i3
-modules-center = mpd
-modules-right = wlan eth battery date powermenu
+modules-center = date
+modules-right = mpd wlan eth battery powermenu
 
 tray-position = right
 tray-padding = 0
@@ -132,7 +132,7 @@ ws-icon-default = ♟
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
 label-focused-foreground = ${xrdb:color9:#222} 
-label-focused-background = ${colors.background-alt}
+;label-focused-background = ${colors.background-alt}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
@@ -141,7 +141,7 @@ label-unfocused-padding = 2
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %icon%
-label-visible-background = ${self.label-focused-background}
+;label-visible-background = ${self.label-focused-background}
 label-visible-foreground = ${self.label-focused-foreground} 
 label-visible-padding = ${self.label-focused-padding}
 
@@ -188,22 +188,6 @@ bar-empty-foreground = ${colors.foreground-alt}
 inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
-
-[module/cpu]
-type = internal/cpu
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
-label = %percentage:2%%
-
-[module/memory]
-type = internal/memory
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
-label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
