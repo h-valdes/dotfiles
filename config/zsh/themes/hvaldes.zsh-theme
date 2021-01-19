@@ -15,12 +15,10 @@ function _user_host() {
   local me
   if [[ -n $SSH_CONNECTION ]]; then
     me="%n@%m"
-  elif [[ $LOGNAME != $USER ]]; then
+  else;
     me="%n"
   fi
-  if [[ -n $me ]]; then
-    echo "%{$fg[cyan]%}$me%{$reset_color%}:"
-  fi
+  echo "%{$fg[yellow]%}[%{$fg[white]%}$me%{$fg[yellow]%}]%{$reset_color%} "
 }
 
 MODE_INDICATOR="%{$fg_bold[yellow]%}❮%{$reset_color%}%{$fg[yellow]%}❮❮%{$reset_color%}"

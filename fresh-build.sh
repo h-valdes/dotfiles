@@ -14,6 +14,7 @@ code --install-extension install SolarLiner.linux-themes
 code --install-extension k--kato.intellij-idea-keybindings
 
 mkdir ~/Projects
+mkdir ~/.background
 
 # Make zsh default shell and change theme (oh-my-zsh)
 chsh -s $(which zsh)
