@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update the background images
+cp -rf ./background/. ~/.background
+
 # Update the dotfiles
 yes | cp -rf ./config/i3/config $HOME/.i3/config
 yes | cp -rf ./config/polybar/ $HOME/.config

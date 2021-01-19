@@ -23,3 +23,6 @@ sed -i 's/robbyrussell/avit/' ~/.zshrc
 
 # Call the script that updates the dotfiles
 sh update.sh
+
+# Copy the font into the system
+sudo cp -rf ./fonts/hack /urs/share/fonts
