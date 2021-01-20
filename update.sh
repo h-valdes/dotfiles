@@ -17,3 +17,6 @@ xrdb ~/.Xresources
 
 # Restart i3
 i3-msg restart
+
+# Restore nitrogen
+nitrogen --restore

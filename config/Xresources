@@ -67,7 +67,7 @@ URxvt.font:  xft:Hack Nerd Font Mono:size=12, xft:monospace:size=12
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#222D31
+URxvt.background:                 [100]#212121
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
