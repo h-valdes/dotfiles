@@ -25,27 +25,27 @@ XTerm*selectToClipboard: true
 *pointerColorForeground:          #16A085
 
 !! black dark/light
-*.color0:     #212121
-*.color8:     #757575
+*.color0:     #191c21
+*.color8:     #d8dee9
 
 !! red dark/light
-*.color1:     #D32F2F
-*.color9:     #FF5722
+*.color1:     #bf616a
+*.color9:     #d08770
 
 !! green dark/light
-*.color2:     #00796B
+*.color2:     #a3be8c
 *.color10:    #009688
 
 !! yellow dark/light
-*.color3:     #FFA000
+*.color3:     #ebcb8b
 *.color11:    #FFC107
 
 !! blue dark/light
-*.color4:     #1976d2
-*.color12:    #03A9F4
+*.color4:     #81a1c1
+*.color12:    #88c0d0
 
 !! magenta dark/light
-*.color5:     #7B1FA2
+*.color5:     #b48ead
 *.color13:    #E040FB
 
 !! cyan dark/light
@@ -67,7 +67,7 @@ URxvt.font:  xft:Hack Nerd Font Mono:size=12, xft:monospace:size=12
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#212121
+URxvt.background:                 [100]#191c21
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true

@@ -15,13 +15,10 @@
 ;   The README contains a lot of information
 ;
 ;==========================================================
-
 [colors]
 background = ${xrdb:color0:#222}
-;background = #222
 background-alt = #444
 foreground = ${xrdb:color7:#222}
-;foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -49,8 +46,6 @@ shade15 = ${xrdb:color15}
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 28
-;offset-x = 8%
-;offset-y = 1%
 radius = 0.0
 fixed-center = true
 
@@ -128,6 +123,7 @@ label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
+
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
@@ -141,42 +137,41 @@ label-mode-padding = 0
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
-ws-icon-0 = 1;❶
-ws-icon-1 = 2;❷
-ws-icon-2 = 3;❸
-ws-icon-3 = 4;❹
-ws-icon-4 = 5;❺
-ws-icon-5 = 6;❻
-ws-icon-6 = 7;❼
-ws-icon-7 = 8;❽
-ws-icon-8 = 9;❾
+;ws-icon-0 = 1;❶
+;ws-icon-1 = 2;❷
+;ws-icon-2 = 3;❸
+;ws-icon-3 = 4;❹
+;ws-icon-4 = 5;❺
+;ws-icon-5 = 6;❻
+;ws-icon-6 = 7;❼
+;ws-icon-7 = 8;❽
+;ws-icon-8 = 9;❾
 
 ws-icon-default = ♟
 
 ; focused = Active workspace on focused monitor
-label-focused = %icon%
+label-focused = %index%
 label-focused-foreground = ${xrdb:color2:#222} 
 ;label-focused-background = ${colors.background-alt}
 label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = %icon%
+label-unfocused = %index%
 label-unfocused-padding = 1
 
 ; visible = Active workspace on unfocused monitor
-label-visible = %icon%
+label-visible = %index%
 ;label-visible-background = ${self.label-focused-background}
 label-visible-foreground = ${self.label-focused-foreground} 
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %icon%
+label-urgent = %index%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
 
 ; Separator in between workspaces
 ; label-separator = |
-
 
 [module/mpd]
 type = internal/mpd
@@ -250,7 +245,6 @@ format-disconnected =
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
-
 
 [module/date]
 type = internal/date
@@ -425,7 +419,7 @@ screenchange-reload = true
 ;pseudo-transparency = false
 
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+margin-top = 0
+margin-bottom = 0
 
 ; vim:ft=dosini
