@@ -151,7 +151,7 @@ ws-icon-default = ♟
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
-label-focused-foreground = ${xrdb:color2:#222} 
+label-focused-foreground = ${xrdb:color1:#222} 
 ;label-focused-background = ${colors.background-alt}
 label-focused-padding = 1
 
