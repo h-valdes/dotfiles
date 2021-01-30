@@ -11,6 +11,8 @@ yes | cp -rf ./config/rofi/ $HOME/.config
 yes | cp -rf ./config/Xresources $HOME/.Xresources
 yes | cp -rf ./config/urxvt/ext/. $HOME/.urxvt/ext
 yes | cp -rf ./config/zsh/themes/. $HOME/.oh-my-zsh/themes
+yes | cp -rf ./config/zsh/zshrc $HOME/.zshrc
+yes | cp -rf ./themes/. $HOME/.themes
 
 # Refresh the Xresources
 xrdb ~/.Xresources

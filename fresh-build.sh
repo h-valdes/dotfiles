@@ -21,6 +21,9 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sed -i 's/robbyrussell/avit/' ~/.zshrc
 
+# Copy Hack font
+sudo cp -r ./fonts/hack /usr/share/fonts
+
 # Call the script that updates the dotfiles
 sh update.sh
 
