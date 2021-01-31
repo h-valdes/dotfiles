@@ -4,7 +4,7 @@
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm rofi firefox hsetroot okular glfw-x11 cmake
 sudo pacman -S --noconfirm polybar
-sudo snap install code --classic
+sudo pacman -Syu code
 
 # Install VSCode extensions and themes
 code --install-extension ms-vscode.cpptools
