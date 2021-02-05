@@ -143,6 +143,15 @@ set $ws6 6
 set $ws7 7
 set $ws8 8
 
+workspace 1 output primary eDP-1
+workspace 2 output primary eDP-1
+workspace 3 output primary eDP-1
+workspace 4 output primary eDP-1
+workspace 5 output eDP-1 
+workspace 6 output eDP-1 
+workspace 7 output eDP-1 
+workspace 8 output eDP-1 
+
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
