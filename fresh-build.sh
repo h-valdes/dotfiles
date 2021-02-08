@@ -9,9 +9,8 @@ sudo pacman -Syu code
 # Install VSCode extensions and themes
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-python.python
-code --install-extension azemoh.one-monokai
-code --install-extension install SolarLiner.linux-themes
 code --install-extension k--kato.intellij-idea-keybindings
+code --install-extension GitHub.github-vscode-theme
 
 mkdir ~/Projects
 mkdir ~/.background

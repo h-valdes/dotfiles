@@ -1,0 +1,13 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.activityBar.visible": false,
+    "latex.server.autoDownload": true,
+    "editor.rulers": [
+        80, 100
+    ]
+}
