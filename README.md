@@ -1,5 +1,6 @@
 # dotfiles
 
+
 Dotfiles for a fresh install of Manjaro i3 (Community Edition). It has 2 
 scripts, one for a completly fresh install (fresh-build.sh) and one to update
 the dotfiles.
