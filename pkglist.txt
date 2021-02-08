@@ -1,0 +1,10 @@
+rofi
+polybar
+firefox
+hsetroot
+okular
+glfw-x11
+cmake 
+zathura
+zathura-pdf-mupdf
+code
