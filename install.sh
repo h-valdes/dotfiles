@@ -11,7 +11,7 @@
 # Install and config a Manjaro i3 fresh system
 
 sudo pacman -Syu --noconfirm
-sudo pacman -Qqe > pkglist.txt # Install programs from text file
+sudo pacman -S --needed - < pkglist.txt # Install programs from text file
 
 # Install VSCode extensions and themes
 code --install-extension ms-vscode.cpptools

@@ -4,7 +4,7 @@ firefox
 hsetroot
 okular
 glfw-x11
-cmake 
+cmake
 zathura
 zathura-pdf-mupdf
 code
