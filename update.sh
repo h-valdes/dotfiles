@@ -14,6 +14,7 @@ yes | cp -rf ./config/zsh/themes/. $HOME/.oh-my-zsh/themes
 yes | cp -rf ./config/zsh/zshrc $HOME/.zshrc
 yes | cp -rf ./config/vscode/. $HOME/.config/Code/User
 yes | cp -rf ./config/vim/vimrc $HOME/.vimrc
+yes | cp -rf ./config/vim/colors/. $HOME/.vim/colors
 
 # Refresh the Xresources
 xrdb ~/.Xresources
