@@ -21,6 +21,17 @@ set shiftwidth=4
 set smarttab
 set tabstop=4
 
+set splitbelow
+set splitright
+
+" Tabline/Buffer line
+set showtabline=2
+set tabline="%1T"
+
+" Remap change tab
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
 " Remap reverse tab to Alt+Shift
 " for command mode
 nnoremap <S-Tab> <<
