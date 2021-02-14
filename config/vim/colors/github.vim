@@ -1,7 +1,7 @@
-hi clear
-if exists('syntax_on')
-  syntax reset
-endif
+"hi clear
+"if exists('syntax_on')
+"  syntax reset
+"endif
 let g:colors_name = 'github'
 let s:disable_italic = get(g:,'colorscheme_primary_disable_italic', 0)
 
@@ -23,20 +23,24 @@ if (has('gui_running'))  "Graphical Vim
 else                     "Console Vim
   if &t_Co == 256
     "Set color palette with 256 colors
-    let s:RED    = '167'
-    let s:GREEN  = '71'
-    let s:YELLOW = '220'
-    let s:BLUE   = '69'
-    let s:BLACK  = '16'
-    let s:DGREY  = '241'
-    let s:LGREY  = '255'
-    let s:WHITE  = '231'
+    let s:RED    = '9'
+    let s:GREEN  = '2'
+    let s:YELLOW = '11'
+    let s:BLUE   = '12'
+    let s:PURPLE = '14'
+    let s:LPURPLE = '135'
+    let s:BLACK  = '0'
+    let s:DGREY  = '8'
+    let s:LGREY  = '7'
+    let s:WHITE  = '15'
   else
     "Set color palette with color names
     let s:RED    = 'red'
     let s:GREEN  = 'green'
     let s:YELLOW = 'yellow'
     let s:BLUE   = 'blue'
+    let s:PURPLE = 'aqua'
+    let s:LPURPLE = 'aqua'
     let s:BLACK  = 'black'
     let s:DGREY  = 'grey'
     let s:LGREY  = 'grey'
@@ -86,13 +90,13 @@ exe 'hi Identifier   '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:BLUE .' '.s:M.'=bold'
 exe 'hi Function     '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:BLUE .' '.s:M.'=bold'
 
 exe 'hi Comment      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREEN.' '.s:M.'=none'
-exe 'hi Typedef      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREEN.' '.s:M.'='.s:I
-exe 'hi PreProc      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREEN.' '.s:M.'=bold'
-exe 'hi Include      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREEN.' '.s:M.'=bold'
-exe 'hi Define       '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREEN.' '.s:M.'=bold'
-exe 'hi Macro        '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREEN.' '.s:M.'=bold'
-exe 'hi Precondit    '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREEN.' '.s:M.'=bold'
-exe 'hi SpecialComment '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:GREEN.' '.s:M.'=bold'
+exe 'hi Typedef      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:LPURPLE.' '.s:M.'='.s:I
+exe 'hi PreProc      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=bold'
+exe 'hi Include      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=bold'
+exe 'hi Define       '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=bold'
+exe 'hi Macro        '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=bold'
+exe 'hi Precondit    '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=bold'
+exe 'hi SpecialComment '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=bold'
 
 exe 'hi Special      '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREY0.' '.s:M.'=none'
 exe 'hi Delimiter    '.s:M.'bg='.s:BG  .' '.s:M.'fg='.s:GREY0.' '.s:M.'=none'

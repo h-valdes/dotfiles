@@ -12,7 +12,6 @@ syntax on
 colorscheme github
 
 highlight ColorColumn ctermbg=0 guibg=lightgrey
-highlight Comment ctermfg=green
 
 " Tab configuration
 set autoindent
