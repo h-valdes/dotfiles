@@ -1,7 +1,7 @@
-"hi clear
-"if exists('syntax_on')
-"  syntax reset
-"endif
+hi clear
+if exists('syntax_on')
+  syntax reset
+endif
 let g:colors_name = 'github'
 let s:disable_italic = get(g:,'colorscheme_primary_disable_italic', 0)
 
@@ -126,6 +126,16 @@ exe 'hi DiffAdd      '.s:M.'bg='.s:BLUE .' '.s:M.'fg='.s:GREY0.' '.s:M.'=none'
 exe 'hi DiffChange   '.s:M.'bg='.s:GREEN.' '.s:M.'fg='.s:GREY0.' '.s:M.'=none'
 exe 'hi DiffDelete   '.s:M.'bg='.s:RED  .' '.s:M.'fg='.s:GREY0.' '.s:M.'=none'
 exe 'hi DiffText     '.s:M.'bg='.s:GREY1.' '.s:M.'fg='.'NONE'.'  '.s:M.'=none'
+
+
+" c
+exe 'hi cLabel     '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:PURPLE.' '.s:M.'=none'
+exe 'hi cStructure     '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:BLUE.' '.s:M.'=none'
+exe 'hi cStorageClass     '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=none'
+exe 'hi cInclude     '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=none'
+exe 'hi cDefine     '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:LPURPLE.' '.s:M.'=none'
+exe 'hi cSpecial     '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:PURPLE.' '.s:M.'=none'
+exe 'hi cppSTLnamespace    '.s:M.'bg='.s:BG.' '.s:M.'fg='.s:PURPLE.' '.s:M.'=none'
 
 
 " Colors for the User Interface.
