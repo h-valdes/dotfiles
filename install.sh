@@ -2,6 +2,7 @@
 
 sudo pacman -Syu --noconfirm
 sudo pacman -S --needed - < pkglist.txt # Install programs from text file
+sudo snap install code --classic
 
 # Install VSCode extensions and themes
 code --install-extension ms-vscode.cpptools
