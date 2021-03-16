@@ -8,3 +8,4 @@ cmake
 zathura
 zathura-pdf-mupdf
 gnome-system-monitor
+flameshot
