@@ -249,6 +249,14 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
+## Navigate // Next Workspace // <> Tab ##
+set_from_resource $i3-wm.binding.ws_next i3-wm.binding.ws_next Tab
+bindsym $mod+$i3-wm.binding.ws_next workspace next
+
+## Navigate // Previous Workspace // <><Shift> Tab ##
+set_from_resource $i3-wm.binding.ws_prev i3-wm.binding.ws_prev Shift+Tab
+bindsym $mod+$i3-wm.binding.ws_prev workspace prev
+
 ###############################################################################
 # Window Resize and Gaps
 ###############################################################################
