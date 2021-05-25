@@ -6,7 +6,7 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-XTerm*background:        #586069
+XTerm*background:        #0D1117
 XTerm*foreground:        #d8d8d8
 XTerm*pointerColor:      #1ABB9B
 XTerm*faceName:          Fixed
@@ -15,7 +15,7 @@ XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
 
-*background: #586069
+*background: #0D1117
 *foreground: #F8F8F2
 
 *fading:                          8
@@ -25,32 +25,32 @@ XTerm*selectToClipboard: true
 *pointerColorForeground:          #16A085
 
 !! black dark/light
-*.color0:     #24292e
-*.color8:     #6a737d
+*.color0:     #0d1117
+*.color8:     #484f58
 
 !! red dark/light
-*.color1:     #d73a49
-*.color9:     #ea4a5a
+*.color1:     #da3633
+*.color9:     #f85149
 
 !! green dark/light
-*.color2:     #28a745
-*.color10:    #34d058
+*.color2:     #238636
+*.color10:    #2ea043
 
 !! yellow dark/light
-*.color3:     #ffd33d
-*.color11:    #ffdf5d
+*.color3:     #9e6a03
+*.color11:    #bb8009
 
 !! blue dark/light
-*.color4:     #0366d6
-*.color12:    #2188ff
+*.color4:     #1f6feb
+*.color12:    #388bfd
 
 !! magenta dark/light (pink really)
-*.color5:     #ea4aaa
-*.color13:    #ec6cb9
+*.color5:     #bf4b8a
+*.color13:    #db61a2
 
 !! cyan dark/light
-*.color6:     #6f42c1
-*.color14:    #8a63d2
+*.color6:     #8957e5
+*.color14:    #a371f7
 
 !! white dark/light
 *.color7:     #BFBFBF
@@ -67,7 +67,7 @@ URxvt.font:  xft:Hack Nerd Font Mono:size=12, xft:monospace:size=12
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#24292e
+URxvt.background:                 [100]#0D1117
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
