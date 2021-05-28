@@ -2,7 +2,10 @@
 
 sudo pacman -Syu --noconfirm
 sudo pacman -S --needed - < pkglist.txt # Install programs from text file
+
+# Install snap packages
 sudo snap install code --classic
+sudo snap install spotify
 
 # Install VSCode extensions and themes
 code --install-extension ms-vscode.cpptools
